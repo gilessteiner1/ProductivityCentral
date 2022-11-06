@@ -1,0 +1,57 @@
+/*Main.css includes rules for the entire web app. Every html/php file links to main.css*/
+
+/* Deafult zoom of page */
+#my{
+zoom: 80%;
+}
+
+/* Nabar links*/
+.nav-link{
+  font-size: 16px;
+}
+
+/*Welcome user text*/
+.navbar-brand{
+  font-size: 12px !important;
+}
+
+/* Footer rules */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color:#fff;
+}
+
+/* Dashboard Headers*/
+.dhead {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding-top: 5px;
+}
+
+/* Dashboard text */
+.dtxt{
+  text-align: left;
+  font-weight: default;
+  color: black;
+  text-decoration: default;
+}
+
+/*Responsive Design: */
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones and tablets: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
